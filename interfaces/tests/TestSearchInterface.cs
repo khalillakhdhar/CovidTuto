@@ -8,7 +8,7 @@ namespace CovidTuto.interfaces
 {
     interface TestSearchInterface
     {
-        void searchReportPatientById(int idPatient, List<TestModel>);
-        void searchRapportPositif(List<TestModel>);
+        void searchReportPatientById(int idPatient, List<TestModel> testes);
+        void searchRapportPositif(List<TestModel> testes);
     }
 }

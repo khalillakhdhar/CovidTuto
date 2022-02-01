@@ -1,0 +1,7 @@
+C:\Users\khali\source\repos\CovidTuto\CovidTuto\bin\Debug\CovidTuto.exe.config
+C:\Users\khali\source\repos\CovidTuto\CovidTuto\bin\Debug\CovidTuto.exe
+C:\Users\khali\source\repos\CovidTuto\CovidTuto\bin\Debug\CovidTuto.pdb
+C:\Users\khali\source\repos\CovidTuto\CovidTuto\obj\Debug\CovidTuto.csprojAssemblyReference.cache
+C:\Users\khali\source\repos\CovidTuto\CovidTuto\obj\Debug\CovidTuto.csproj.CoreCompileInputs.cache
+C:\Users\khali\source\repos\CovidTuto\CovidTuto\obj\Debug\CovidTuto.exe
+C:\Users\khali\source\repos\CovidTuto\CovidTuto\obj\Debug\CovidTuto.pdb

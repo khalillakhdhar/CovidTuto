@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CovidTuto
 {
-    class PatientModel
+    class AdminModel
     {
+        string code { get; set; }
     }
 }

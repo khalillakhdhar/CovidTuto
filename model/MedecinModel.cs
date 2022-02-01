@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CovidTuto
 {
-    class UserModel
+    class MedecinModel
     {
+        public string Departement { get; set; }
     }
 }

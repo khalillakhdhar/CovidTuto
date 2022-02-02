@@ -42,22 +42,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="model\AdminModel.cs" />
-    <Compile Include="model\MedecinModel.cs" />
-    <Compile Include="model\PatientList.cs" />
-    <Compile Include="model\PatientModel.cs" />
+    <Compile Include="controllers\patients\PatientImplements.cs" />
+    <Compile Include="controllers\patients\PatientSearchImplement.cs" />
+    <Compile Include="controllers\RapportImplements.cs" />
+    <Compile Include="controllers\tests\TestImplement.cs" />
+    <Compile Include="controllers\tests\TestSearchImplement.cs" />
+    <Compile Include="interfaces\patients\PatientInterface.cs" />
+    <Compile Include="interfaces\RapportInterface.cs" />
+    <Compile Include="interfaces\patients\RecherchePatientInterface.cs" />
+    <Compile Include="interfaces\tests\TestInterface.cs" />
+    <Compile Include="interfaces\tests\TestSearchInterface.cs" />
+    <Compile Include="model\users\AdminModel.cs" />
+    <Compile Include="model\users\MedecinModel.cs" />
+    <Compile Include="model\users\PatientList.cs" />
+    <Compile Include="model\users\PatientModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="model\RapportModel.cs" />
-    <Compile Include="model\TestModel.cs" />
-    <Compile Include="model\UserModel.cs" />
+    <Compile Include="model\suivi\RapportModel.cs" />
+    <Compile Include="model\suivi\TestModel.cs" />
+    <Compile Include="model\users\UserModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="controllers\" />
-    <Folder Include="interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
